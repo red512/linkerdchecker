@@ -1,0 +1,14 @@
+{
+    "clusters": [
+      {
+        "clusterName": "minikube",
+        "category_name": "linkerd-existence",
+        "check_error": "configmaps \"linkerd-config\" not found"
+      },
+      {
+        "clusterName": "minikube1",
+        "category_name": "linkerd-existence",
+        "check_error": "configmaps \"linkerd-config\" not found"
+      }
+    ]
+  }
