@@ -24,5 +24,19 @@ Note that the clusterName and category_name values are case-sensitive and must m
 
 Logging output is set to the INFO level by default, but can be adjusted by modifying the logging.basicConfig call.
 
+To create the binary file for this script, you can use the provided Makefile.
+The Makefile contains two targets:
+* `clean`: This target removes the dist directory where the binary will be created. You can run it with the following command:
 
+```
+make clean
+```
+* `build`: This target creates a binary file in the dist directory using the PyInstaller package. You can run it with the following command:
+```
+make build
+```
 
+After running the build target, you will find the binary file in the dist directory. You can run it using the following command:
+```
+.dist/main/main -s $SLACK_WEBHOOK
+```
