@@ -6,9 +6,9 @@
         "check_error": "configmaps \"linkerd-config\" not found"
       },
       {
-        "clusterName": "minikube1",
-        "category_name": "linkerd-existence",
-        "check_error": "configmaps \"linkerd-config\" not found"
+        "clusterName": "<name of the cluster>",
+        "category_name": "<name of the error category>",
+        "check_error": "<error message>"
       }
     ]
   }
