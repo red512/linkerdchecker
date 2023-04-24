@@ -6,7 +6,6 @@ import slack
 
 logging.basicConfig(level=logging.INFO)
 
-
 def check_linkerd_errors(cluster, webhook_url, json_dict):
     if not json_dict.get("success", False):
         for category in json_dict.get("categories", []):
